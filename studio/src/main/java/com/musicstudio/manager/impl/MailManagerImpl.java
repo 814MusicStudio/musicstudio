@@ -20,7 +20,7 @@ public class MailManagerImpl extends Authenticator implements MailManager {
         email.setSmtpPort(465);
         email.setAuthenticator(new DefaultAuthenticator("username", "password"));
         email.setSSLOnConnect(true);
-        email.setFrom("user@gmail.com");
+        email.setFrom("user@gmail.com");//Ä¿±êµØÖ·
         email.setSubject("TestMail");
         email.setMsg("This is a test mail ... :-)");
         email.addTo("foo@bar.com");

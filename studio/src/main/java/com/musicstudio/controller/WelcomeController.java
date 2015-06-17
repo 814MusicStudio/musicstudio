@@ -15,10 +15,10 @@ import javax.annotation.Resource;
 @Controller
 public class WelcomeController {
 
-    private static final Logger logger = LoggerFactory.getLogger(WelcomeController.class);
+//    private static final Logger logger = LoggerFactory.getLogger(WelcomeController.class);
 
-    @Resource
-    private MailManager mailManager;
+//    @Resource
+//    private MailManager mailManager;
 
     @RequestMapping("/page/welcome.html")
     public ModelAndView welcome() {

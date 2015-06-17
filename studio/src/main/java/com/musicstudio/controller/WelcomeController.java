@@ -23,7 +23,7 @@ public class WelcomeController {
     @RequestMapping("/page/welcome.html")
     public ModelAndView welcome() {
         try {
-            mailManager.sendMail();
+//            mailManager.sendMail();
         } catch (Exception e) {
             //ignore
         }

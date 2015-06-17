@@ -1,7 +1,7 @@
 #ignore these files 
 studio/.idea/
-/studio/build/
-/studio/out/
-/studio/classes/
-/studio/.gradle/
+studio/build/
+studio/out/
+studio/classes/
+studio/.gradle/
 *.iml

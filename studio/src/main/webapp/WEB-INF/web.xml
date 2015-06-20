@@ -37,6 +37,13 @@
               <!--<url-pattern>/page/*.html</url-pattern>-->
               <!--<url-pattern>/page/*</url-pattern>-->
        </servlet-mapping>
+       <servlet-mapping>
+              <servlet-name>page</servlet-name>
+              <url-pattern>/page/tuner.html</url-pattern>
+              <!--<url-pattern>/page/welcome.jsp</url-pattern>-->
+              <!--<url-pattern>/page/*.html</url-pattern>-->
+              <!--<url-pattern>/page/*</url-pattern>-->
+       </servlet-mapping>
 
        <!--log config-->
        <context-param>
